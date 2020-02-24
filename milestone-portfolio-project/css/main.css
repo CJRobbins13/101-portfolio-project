@@ -1,4 +1,9 @@
 /***** BASE STYLES *****/
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -21,7 +26,7 @@ body {
 }
 
 .third-width {
-	width: 32%;
+	width: 32.5%;
 	margin: 0 auto;
 }
 
@@ -122,13 +127,15 @@ header h2 {
 #work .third-width {
 	display: inline-block;
 	padding: 10px 5px;
+	text-align: center;
 }
 
 #work .third-width img {
 	display: block;
-	height: 200px;
-	padding: 10px 5px;
+	height: 250px;
+	padding: 0;
 	border: 1px solid #959595;
+	margin: 0 auto;
 }
 
 #work .third-width p {
@@ -160,6 +167,7 @@ header h2 {
 #contact .third-width {
 	display: inline-block;
 	padding: 10px 5px;
+	text-align: center;
 }
 
 #contact p {
@@ -168,10 +176,9 @@ header h2 {
 
 #contact .third-width img {
 	display: inline-block;
-	width: 10%;
-	padding: 10px;
+	width: 5%;
 	margin: 0 auto;
-
+	padding: 10px;
 }
 
 
@@ -179,6 +186,7 @@ header h2 {
 footer {
 	margin: 0 auto;
 	background-color: #e8e8e8;
+	padding: 0 0 10px 0;
 }
 
 footer p {
