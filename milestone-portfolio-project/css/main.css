@@ -1,0 +1,186 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+#home, #about, #work, #contact {
+	height: 800px;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.half-width {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.third-width {
+	width: 32%;
+	margin: 0 auto;
+}
+
+/**** HEADER SECTION ****/
+header {
+	background-color: #ffffff;
+	margin: 35px 35px 10px 35px;
+}
+
+nav {
+	float: right;
+	border: 1px solid #ffffff;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #000000;
+	padding-left: 40px;
+}
+
+header h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 62px;
+	padding: 200px 0 10px 50px;
+}
+
+header h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	font-size: 32px;
+	padding: 0 50px 200px 50px;
+}
+
+/**** ABOUT SECTION ****/
+#about {
+	margin: 0 auto;
+	background-color: #e7cac2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about .full-width {
+	padding: 0 auto;
+}
+
+#about h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#about img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #e2e0d4;
+	border-radius: 50%;
+}
+
+#about p {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+/**** WORK SECTION ****/
+#work {
+	margin: 0 auto;
+	background-color: #e2e0d4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#work .full-width {
+	padding: 0 auto;
+	width: 100%;
+}
+
+#work h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#work .third-width {
+	display: inline-block;
+	padding: 10px 5px;
+}
+
+#work .third-width img {
+	display: block;
+	height: 200px;
+	padding: 10px 5px;
+	border: 1px solid #959595;
+}
+
+#work .third-width p {
+	text-align: center;
+}
+
+/**** CONTACT SECTION ****/
+#contact {
+	margin: 0 auto;
+	background-color: #e8e8e8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact .full-width {
+	padding: 0 auto;
+	width: 100%;
+}
+
+#contact h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#contact .third-width {
+	display: inline-block;
+	padding: 10px 5px;
+}
+
+#contact p {
+	text-align: center;
+}
+
+#contact .third-width img {
+	display: inline-block;
+	width: 10%;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+/**** FOOTER SECTION ****/
+footer {
+	margin: 0 auto;
+	background-color: #e8e8e8;
+}
+
+footer p {
+	text-align: center;
+}
